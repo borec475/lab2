@@ -6,7 +6,11 @@
 
 struct fraction
 {
-
+	int nominatiom, denomination;
+	bool is_correct(denomination)
+	{
+		(denomination != 0) &&  (nomination > denomination) ? return 1 : return 0;
+	}
 };
 
 int main(int argc, char **argv)
@@ -21,3 +25,4 @@ int main(int argc, char **argv)
 			fractions[i].denominator);
 	*/
 }
+
